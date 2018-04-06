@@ -1,5 +1,20 @@
 <app-my-component></app-my-component>
 
-<button (click)="count = count + 1" >Click me</button>
+<button (click)="count = count + 1">Click me</button>
 
-<img>
+<p>
+    Contador {{count}}
+</p>
+<br>
+<br>
+
+<input [disabled]="enabled ">
+
+<button (click)="enabled = !enabled ">Boton</button>
+
+
+
+<br>
+
+
+<img [src]="imgSource">
